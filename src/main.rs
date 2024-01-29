@@ -33,7 +33,8 @@ fn main() -> io::Result<()> {
             answer: "C".to_string(),
         },
         Question {
-            question: "Which programming language is often used for web development?".to_string(),
+            question: "Which programming language is often used for frontend web development?"
+                .to_string(),
             options: vec![
                 "A. Python".to_string(),
                 "B. Java".to_string(),
